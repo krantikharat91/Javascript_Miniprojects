@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Changer</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 20px 100px;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            font-size: 50px;
+            font-family: serif;
+            font-weight: bold;
+
+        }
+        p{
+            text-align: center;
+            font-size: 18px;
+            font-weight: normal;
+        }
+        img{
+            width: 100% ;
+            height: auto;
+            margin: 0 auto;
+        }
+        .btn{
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            border: solid gray 2px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        #white{
+            background-color: white;
+        }
+        #aqua{
+            background-color: aqua;
+        }
+        #violet{
+            background-color: violet;
+        }
+        #black{
+            background-color: black;
+        }
+        #color-switcher{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="color-switcher">
+        <span class="btn" id="white" onclick="changeBg('#ffffff')"></span>
+        <span class="btn" id="aqua" onclick="changeBg('#7fffd4')"></span>
+        <span class="btn" id="violet" onclick="changeBg('#ce9aff')"></span>
+        <span class="btn" id="black" onclick="changeBg('#000000')"></span>
+
+    </div>
+    <h1 class="text"> Our World</h1>
+    <img src="https://cdn.pixabay.com/photo/2016/08/24/14/29/earth-1617121__340.jpg" alt="">
+    <p class="text">
+        Earth, our home, is the third planet from the sun. While scientists continue to hunt for clues of life beyond Earth, our home planet remains the only place in the universe where we've ever identified living organisms. 
+
+        Earth is the fifth-largest planet in the solar system. It's smaller than the four gas giants — Jupiter, Saturn, Uranus and Neptune — but larger than the three other rocky planets, Mercury, Mars and Venus.
+
+        Earth has a diameter of roughly 8,000 miles (13,000 kilometers) and is mostly round because gravity generally pulls matter into a ball. But the spin of our home planet causes it to be squashed at its poles and swollen at the equator, making the true shape of the Earth an "oblate spheroid."
+        Earth's axis of rotation is tilted in relation to the ecliptic plane, an imaginary surface through the planet's orbit around the sun. This means the Northern and Southern hemispheres will sometimes point toward or away from the sun depending on the time of year, and this changes the amount of light the hemispheres receive, resulting in the changing seasons.
+
+        Earth happens to orbit the sun within the so-called "Goldilocks zone," where temperatures are just right to maintain liquid water on our planet's surface. Earth's orbit is not a perfect circle, but rather a slightly oval-shaped ellipse, similar to the orbits of all the other planets in our solar system. Our planet is a bit closer to the sun in early January and farther away in July, although this proximity has a much smaller effect on the temperatures we experience on the planet's surface than does the tilt of Earth's axis. 
+
+        Statistics about Earth's orbit, according to NASA:
+
+
+
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>
